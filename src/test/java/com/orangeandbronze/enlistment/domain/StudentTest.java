@@ -13,7 +13,7 @@ public class StudentTest {
 	@Test
 	public void AcceptPositiveStudentNumber(){
 		Student student = new Student(2014589, "Renz", "Exconde");
-		assertEquals("Student# 2014588 Renz Exconde", student.toString());
+		assertEquals("Student# 2014589 Renz Exconde", student.toString());
 	}
 	
 }
