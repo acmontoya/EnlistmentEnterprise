@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class SectionTest {
-	
+	//some comment
 	@Test
 	public void enlistSectionAndSubject() {
 		Section section = new Section("ABC123", Subject.ART, new Room("Rm312") , Time.MONTHUA);
