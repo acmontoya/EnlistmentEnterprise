@@ -7,7 +7,7 @@ public class SectionTest {
 	@Test
 	public void enlistSectionAndSubject() {
 		Section section = new Section("ABC123", Subject.ART, new Room("Rm312") , Time.MONTHUA);
-		assertEquals("ABC123 ART Rm313 MONTHUA", section.toString());
+		assertEquals("ABC123 ART Rm312 MONTHUA", section.toString());
 	}
 	
 	@Test(expected=PreRequisiteException.class) //should fail, same sections
